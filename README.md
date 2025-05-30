@@ -107,3 +107,43 @@ consultinha pra provinha
   </ul>
 </body>
 </html>
+
+dimensionamento 
+width: 300px;    /* Largura fixa */
+height: 150px;   /* Altura fixa */
+width: 50%;      /* Largura relativa */
+padding: 10px;   /* Espaço interno */
+margin: 20px;    /* Espaço externo */
+border: 1px solid black; /* Borda */
+font-size: 16px; /* Tamanho da fonte */
+css
+<style>
+  body {
+    background-color: #f2f2f2;
+    font-family: Arial;
+  }
+
+  h1 {
+    color: blue;
+    text-align: center;
+  }
+
+  .caixa {
+    width: 300px;
+    height: 150px;
+    background-color: lightgray;
+    padding: 10px;
+    margin: 20px auto;
+    border: 2px solid black;
+  }
+formulários 
+<form action="destino.php" method="post">
+  <label for="nome">Nome:</label>
+  <input type="text" id="nome" name="nome"><br>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email"><br>
+
+  <label>Senha:</label>
+  <input type="password" name="senha"><br>
+
